@@ -17,6 +17,8 @@ public class Properties {
 				PreparedStatement pst=con.prepareStatement(Query);
 				pst.setInt(1,4);
 				pst.setString(2, "gopika");
+				pst.setInt(1,6);
+				pst.setString(2, "shwetha");
 				
 				pst.executeUpdate();
 				
